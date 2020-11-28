@@ -1,8 +1,12 @@
-import Sequelize from 'sequelize';
+import Sequelize, {Optional, Model} from 'sequelize';
 import {Link} from './link';
 import database from '../database';
 
-const LinkModel = database.define('link', {
+interface ILinkCreationAttibutes extends Optional<Link, "id">{}
+
+export interface ILinkModel extends Model<Link, ILinkCreationAttibutes>, Link {}
+
+const LinkModel = database.define<ILinkModel>('link', {
     id: {
         type: Sequelize.INTEGER.UNSIGNED,
         primaryKey: true,
