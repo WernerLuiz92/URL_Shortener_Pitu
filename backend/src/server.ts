@@ -1,7 +1,7 @@
 import app from './app';
 import database from './database';
 
-database.sync({force: true});
+database.sync();
 console.log('Database running at 3306');
 
 
