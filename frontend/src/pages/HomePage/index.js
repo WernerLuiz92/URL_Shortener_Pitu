@@ -1,5 +1,4 @@
 import React from 'react';
-import { render } from 'react-dom';
 
 class HomePage extends React.Component {
     constructor(props) {
