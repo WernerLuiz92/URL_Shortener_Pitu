@@ -89,6 +89,10 @@ sh
 
 ## :memo: Licença
 
+<p align="center">
+    <img alt="License" src="https://img.shields.io/github/license/WernerLuiz92/URL_Shortener_Pitu?style=for-the-badge">
+</p>
+
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
