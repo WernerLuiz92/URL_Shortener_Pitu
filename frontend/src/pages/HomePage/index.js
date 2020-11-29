@@ -50,7 +50,7 @@ class HomePage extends React.Component {
 
         return (
             <Container>
-                <Header>Seu novo encurtador de URL. :)</Header>
+                <Header>Seu novo encurtador de URLs <FontAwesomeIcon size="2x" icon={["fab", "angellist"]} /></Header>
                 <ContentContainer>
                     <Form onSubmit={this.handleSubmit}>
                         <InputGroup className="mb-3">
