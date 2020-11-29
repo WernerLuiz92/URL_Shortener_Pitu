@@ -22,7 +22,7 @@
 
 O *Pitu* é uma aplicação micro-SaaS pensada para, de forma simples e fácil, encurtar e vizualizar estatíticas de uma URL.
 
-*Mas, por que Pitu??*
+## *Mas, por que Pitu??*
 
 O Pitu é considerado o maior camarão de água doce podendo chegar a medir quase 50 centímetros, porém ele nasce muito pequeno.
 
