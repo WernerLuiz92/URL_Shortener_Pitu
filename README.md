@@ -5,9 +5,9 @@
 </h1>
 
 <p align="center">
-    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/WernerLuiz/Pitu?style=flat-square">
-    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/DanielAraldi/Pitu?style=flat-square">
-    <img alt="GitHub" src="https://img.shields.io/github/license/DanielAraldi/Pitu?style=flat-square"><br/>
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/WernerLuiz/URL_Shortener_Pitu?style=flat-square">
+    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/WernerLuiz/URL_Shortener_Pitu?style=flat-square">
+    <img alt="GitHub" src="https://img.shields.io/github/license/WernerLuiz/URL_Shortener_Pitu?style=flat-square"><br/>
 </p>
 
 <p align="center">
