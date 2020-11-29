@@ -18,6 +18,19 @@ class StatsPage extends React.Component {
         }
     }
 
+    async componentDidMount() {
+        const code = this.props.match.params.code;
+
+        try {
+            const service = new ShortenerService();
+            const shortenedURL = await service.getStats(code);
+
+            this.setState({ isLoading: false, shortenedURL })
+        } catch (error) {
+            this.setState({ isLoading: false, errorMessage: 'Ops, a URL solicitada não existe.'})
+        }
+    }
+
     render() {
         const { errorMessage, shortenedURL } = this.state;
         
@@ -25,14 +38,27 @@ class StatsPage extends React.Component {
             <Container>
                 <Header>Estatísticas:</Header>
                 {errorMessage ? (
-                    <StatsContainer>
+                    <StatsContainer className="text-center">
                         <FontAwesomeIcon size="3x" color="#f8d7da" icon="exclamation-triangle" />
                         <p className="m-3">{errorMessage}</p>
                         <a className="btn btn-sm btn-primary" href="/">Encurtar Nova URL</a>
                     </StatsContainer>
-
                 ) : (
-                    <p>Texto qualquer</p>
+                    <StatsContainer className="text-center">
+                        <p><b>https://pitu.tk/{shortenedURL.code}</b></p>
+                        <p>Redireciona para:<br />{shortenedURL.url}</p>
+                        <StatsRow>
+                            <StatsBox>
+                                <b>{shortenedURL.hits}</b>
+                                <StatsBoxTitle>Visitas</StatsBoxTitle>
+                            </StatsBox>
+                            <StatsBox>
+                                <b>{shortenedURL.relativeDate}</b>
+                                <StatsBoxTitle>Última visita</StatsBoxTitle>
+                            </StatsBox>
+                        </StatsRow>
+                        <a className="btn btn-sm btn-primary" href="/">Encurtar Nova URL</a>
+                    </StatsContainer>
                 )}
             </Container>
         )
