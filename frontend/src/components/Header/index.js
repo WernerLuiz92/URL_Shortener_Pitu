@@ -1,10 +1,10 @@
 import React from 'react';
+import { Logo, HeaderContainer } from './styles';
 
 function Header(props){
     return (
         <>
-            <p>Header: {props.title}</p>
-            <p>{props.children}</p>
+
         </>       
     )
 }
