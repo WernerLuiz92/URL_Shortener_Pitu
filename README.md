@@ -61,13 +61,13 @@ Este projeto foi proposto durante a *Semana Full Stack JS*, projeto do professor
 
 1. Faça um clone do repositório:
 
-sh
+```sh
   $ git clone https://github.com/WernerLuiz92/URL_Shortener_Pitu.git
-
+```
 
 2. Executando a Aplicação:
 
-sh
+```sh
   # API
   $ cd backend
   # Instalando as dependências do projeto.
@@ -85,7 +85,7 @@ sh
   $ yarn install # ou npm install
   # Inicie a aplicação web
   $ yarn start # ou npm start
-
+```
 
 ## :memo: Licença
 
