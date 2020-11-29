@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-    <img alt="Home Page" src="./.github/homepage.png" />
+    <img alt="Home Page" src="./.github/HomePage_Screen.png" />
 <p>
 
 ## :bookmark: Sobre o Projeto
