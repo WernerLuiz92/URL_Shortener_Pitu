@@ -11,12 +11,6 @@
 </p>
 
 <p align="center">
-    <a href="https://insomnia.rest/run/?label=&uri=" target="_blank">
-        <img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia">
-    </a><br/>
-</p>
-
-<p align="center">
     <a href="#bookmark-sobre-o-projeto">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#rocket-tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#boom-como-executar">Como Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -24,16 +18,22 @@
 </p>
 
 <p align="center">
-    <img alt="Design do Projeto" src="./.github/design-pitu.PNG" />
+    <img alt="Home Page" src="./.github/homepage.png" />
 <p>
 
 ## :bookmark: Sobre o Projeto
 
-O *Pitu* é uma aplicação Web que possibilita aos usuários encurtar e vizualizar estatíticas da URL que ele resolveu encurtar.
+O *Pitu* é uma aplicação micro-SaaS pensada para, de forma simples e fácil, encurtar e vizualizar estatíticas de uma URL.
 
-Este projeto foi idealizado pensando no camarão *pitu*, caracterizado por nascer pequenininho e em sua forma adulta ser muito grande. 
+*Mas, por que Pitu??*
 
-Essa aplicação foi realizada durante a *Semana Full Stack JS*, projeto do professor [Luiz Duarte](https://www.luiztools.com.br).
+O Pitu é considerado o maior camarão de água doce podendo chegar a medir quase 50 centímetros, porém ele nasce muito pequeno.
+
+Esta ideia de nascer pequeno e se tornar grande, é justamente a ideia de nosso projeto. Onde um usuário com uma URL encurtada (pequena)
+pode acessar um site cuja URL seja muito maior.
+
+Este projeto foi proposto durante a *Semana Full Stack JS*, projeto do professor [Luiz Duarte](https://www.luiztools.com.br). 
+
 
 ## :rocket: Tecnologias Utilizadas
 
@@ -50,7 +50,7 @@ Essa aplicação foi realizada durante a *Semana Full Stack JS*, projeto do prof
 -  [Typescript](https://www.typescriptlang.org/)
 -  [Yarn](https://yarnpkg.com/)
 
-## :boom: Como Executar
+## :boom: Como Executar o Projeto
 
 - ### *Pré-requisitos*
 
@@ -62,7 +62,7 @@ Essa aplicação foi realizada durante a *Semana Full Stack JS*, projeto do prof
 1. Faça um clone do repositório:
 
 sh
-  $ git clone https://github.com/DanielAraldi/Pitu.git
+  $ git clone https://github.com/WernerLuiz92/URL_Shortener_Pitu.git
 
 
 2. Executando a Aplicação:
@@ -89,11 +89,10 @@ sh
 
 ## :memo: Licença
 
-<p align="center">
-    <img alt="License" src="https://img.shields.io/github/license/WernerLuiz92/URL_Shortener_Pitu?style=for-the-badge">
-</p>
+
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+<img alt="License" src="https://img.shields.io/github/license/WernerLuiz92/URL_Shortener_Pitu?style=for-the-badge">
 
 ---
 <sup>Projeto desenvolvido com a tutoria de [Luiz Duarte](https://github.com/luiztools), da [LuizTools](https://www.luiztools.com.br).</sup>
