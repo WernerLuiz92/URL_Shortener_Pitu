@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Pitu" src=".github/images/pitu.png" height="100px" />
+    <img alt="Pitu" src=".github/icone.png" height="100px" />
     <br>Semana Full Stack JS<br/>
     Node.js | ReactJS | MySQL
 </h1>
