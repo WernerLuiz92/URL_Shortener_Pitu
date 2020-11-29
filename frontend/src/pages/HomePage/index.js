@@ -1,4 +1,7 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Header from '../../components/Header';
 
 class HomePage extends React.Component {
     constructor(props) {
@@ -7,7 +10,10 @@ class HomePage extends React.Component {
 
     render() {
         return (
-            <p>Pitu - URL Shortener</p>
+            <Container>
+                <Header title="Título">Header Customizado</Header>
+                <FontAwesomeIcon icon="check-square" /> Pitu - URL Shortener
+            </Container>
         )
     } 
 }
