@@ -11,17 +11,14 @@
 </p>
 
 <p align="center">
-    <a href="#bookmark-sobre-o-projeto">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#rocket-tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#boom-como-executar">Como Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#memo-licença">Licença</a>
+    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">Pitu URL Shortener</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
-    <img alt="Home Page" src="./.github/HomePage_Screen.png" />
+    <img alt="Home Page" src=".github/HomePage_Screen.png" />
 <p>
 
-## :bookmark: Sobre o Projeto
+## Sobre o Projeto
 
 O *Pitu* é uma aplicação micro-SaaS pensada para, de forma simples e fácil, encurtar e vizualizar estatíticas de uma URL.
 
@@ -35,7 +32,7 @@ pode acessar um site cuja URL seja muito maior.
 Este projeto foi proposto durante a *Semana Full Stack JS*, projeto do professor [Luiz Duarte](https://www.luiztools.com.br). 
 
 
-## :rocket: Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 -  [Axios](https://github.com/axios/axios)
 -  [Date-fns](https://date-fns.org/)
@@ -50,7 +47,7 @@ Este projeto foi proposto durante a *Semana Full Stack JS*, projeto do professor
 -  [Typescript](https://www.typescriptlang.org/)
 -  [Yarn](https://yarnpkg.com/)
 
-## :boom: Como Executar o Projeto
+## Como Executar o Projeto
 
 - ### *Pré-requisitos*
 
@@ -87,7 +84,7 @@ Este projeto foi proposto durante a *Semana Full Stack JS*, projeto do professor
   $ yarn start # ou npm start
 ```
 
-## :memo: Licença
+## Licença
 
 
 
