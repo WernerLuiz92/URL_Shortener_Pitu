@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">Pitu URL Shortener</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://pitu.link">Pitu URL Shortener</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
