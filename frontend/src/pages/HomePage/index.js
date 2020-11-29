@@ -73,14 +73,14 @@ class HomePage extends React.Component {
                                     <InputGroup>
                                         <FormControl
                                             autoFocus={true}
-                                            defaultValue={`https://pitu.tk/${code}`}
+                                            defaultValue={`https://pitu.link/${code}`}
                                             ref={(input) => this.inputURL = input}                          
                                         />
                                         <InputGroup.Append>
                                             <Button variant="outline-secondary" onClick={() => this.copyToClipboard()}><FontAwesomeIcon icon={["far", "copy"]} /> Copiar</Button>    
                                         </InputGroup.Append> 
                                     </InputGroup>
-                                    <p>Para acompanhar as estatísticas do seu link, acesse https://pitu.tk/{code}/stats</p>
+                                    <p>Para acompanhar as estatísticas do seu link, acesse https://pitu.link/{code}/stats</p>
                                 </>
                             )
                         )}

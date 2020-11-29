@@ -57,7 +57,7 @@ class StatsPage extends React.Component {
                     </StatsContainer>
                 ) : (
                     <StatsContainer className="text-center">
-                        <p><b>https://pitu.tk/{shortenedURL.code}</b></p>
+                        <p><b>https://pitu.link/{shortenedURL.code}</b></p>
                         <p>Redireciona para:<br />{shortenedURL.url}</p>
                         <StatsRow>
                             <StatsBox>

@@ -1,9 +1,9 @@
 import React from 'react';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
-// pitu.tk/ -> HomePage
-// pitu.tk/:code -> RedirectPage
-// pitu.tk/:code/stats -> StatsPage
+// pitu.link/ -> HomePage
+// pitu.link/:code -> RedirectPage
+// pitu.link/:code/stats -> StatsPage
 
 import HomePage from '../pages/HomePage';
 import RedirectPage from '../pages/RedirectPage';
