@@ -5,7 +5,6 @@ class ShortenerService {
         this.api = baseAPI(process.env.REACT_APP_API);
     }
 
-
     async getLink(code) {
         const result = await this.api.get(`links/${code}`);
 
