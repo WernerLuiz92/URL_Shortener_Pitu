@@ -1,5 +1,5 @@
 import {Sequelize} from 'sequelize';
 
-const sequelize = new Sequelize('mysql://root:Pitu-link2020#@localhost:3306/pitu');
+const sequelize = new Sequelize('mysql://root:Mysql2020luiztools_@localhost:3306/pitu');
 
 export default sequelize;
