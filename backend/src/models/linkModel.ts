@@ -14,7 +14,7 @@ const LinkModel = database.define<ILinkModel>('link', {
         allowNull: false
     },
     url: {
-        type: Sequelize.STRING(1024),
+        type: Sequelize.STRING(512),
         allowNull: false
     },
     code: {
