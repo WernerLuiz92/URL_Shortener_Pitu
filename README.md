@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="CRUD" src=".github/icone.png" height="100px" />
+    <img alt="Pitu" src=".github/icone.png" height="100px" />
     <br>Semana Full Stack JS<br/>
     Node.js | ReactJS | MySQL
 </h1>
@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.pitu.link">Pitu URL Shortener</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.pitu.link">Pitu URL Shortener - www.pitu.link</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
